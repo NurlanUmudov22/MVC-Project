@@ -8,7 +8,7 @@
 
         public string Image { get; set; }
 
-        public ICollection<Information> Informations { get; set; }
+        //public ICollection<Information> Informations { get; set; }
 
 
     }

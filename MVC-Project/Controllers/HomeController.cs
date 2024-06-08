@@ -4,6 +4,8 @@ using MVC_Project.ViewModels;
 using MVC_Project.ViewModels.Sliders;
 using MVC_Project.ViewModels.Informations;
 using MVC_Project.ViewModels.Abouts;
+using MVC_Project.Helpers.Extensions;
+using MVC_Project.Services;
 
 
 namespace MVC_Project.Controllers
@@ -36,7 +38,9 @@ namespace MVC_Project.Controllers
                     Id = m.Id,
                     Image = m.Image,
                     Title = m.Title,
-                    Description = m.Description
+                    Description = m.Description,
+                    CreatedDate = m.CreatedDate
+
                 }),
 
                 Informations = info.Select(m => new InformationVM
@@ -47,16 +51,10 @@ namespace MVC_Project.Controllers
                     Description = m.Description
                 }),
 
+                //Sliders = await _sliderService.GetAllAsync(),
+                //Informations = await _infoService.GetAllAsync(),
+                Abouts = await _aboutService.GetAboutAsync(),
 
-                  Abouts = info.Select(m => new AboutVM
-                  {
-                      Id = m.Id,
-                      Image = m.Image,
-                      Title = m.Title,
-                      Description = m.Description,
-                      //InfoTitle = m.About.Informations
-
-                  })
 
             };
             return View(model);

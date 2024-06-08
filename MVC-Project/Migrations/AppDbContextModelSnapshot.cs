@@ -61,9 +61,6 @@ namespace MVC_Project.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
-                    b.Property<int>("AboutId")
-                        .HasColumnType("int");
-
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("datetime2");
 
@@ -83,8 +80,6 @@ namespace MVC_Project.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("AboutId");
 
                     b.ToTable("Informations");
                 });
@@ -120,22 +115,6 @@ namespace MVC_Project.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Sliders");
-                });
-
-            modelBuilder.Entity("MVC_Project.Models.Information", b =>
-                {
-                    b.HasOne("MVC_Project.Models.About", "About")
-                        .WithMany("Informations")
-                        .HasForeignKey("AboutId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("About");
-                });
-
-            modelBuilder.Entity("MVC_Project.Models.About", b =>
-                {
-                    b.Navigation("Informations");
                 });
 #pragma warning restore 612, 618
         }

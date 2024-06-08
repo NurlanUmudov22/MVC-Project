@@ -27,5 +27,14 @@ namespace MVC_Project.Data
         //public DbSet<CourseImage> CourseImages { get; set; }
 
 
+
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Slider>().HasQueryFilter(m => !m.SoftDeleted);
+            modelBuilder.Entity<Information>().HasQueryFilter(m => !m.SoftDeleted);
+            modelBuilder.Entity<About>().HasQueryFilter(m => !m.SoftDeleted);
+        }
+
     }
 }

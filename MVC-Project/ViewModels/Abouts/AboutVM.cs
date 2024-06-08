@@ -9,7 +9,8 @@
 
         public string Image { get; set; }
 
-        public string InfoTitle { get; set; }
+        //public string InfoTitle { get; set; }
+        public string CreatedDate { get; set; }
 
     }
 }

@@ -13,7 +13,6 @@ namespace MVC_Project.ViewModels.Sliders
         public string Description { get; set; }
 
         public string Image { get; set; }
-
-
+        public string CreatedDate { get; internal set; }
     }
 }
