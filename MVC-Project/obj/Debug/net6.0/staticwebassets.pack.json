@@ -725,8 +725,16 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\ASUS\\OneDrive\\Рабочий стол\\MVC-Project\\MVC-Project\\MVC-Project\\wwwroot\\img\\2b79ff9d-8b7a-4fc8-bd5f-68c4ea467fd0-WhatsApp Image 2024-06-04 at 18.27.15 (3).jpeg",
-      "PackagePath": "staticwebassets\\img\\2b79ff9d-8b7a-4fc8-bd5f-68c4ea467fd0-WhatsApp Image 2024-06-04 at 18.27.15 (3).jpeg"
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Рабочий стол\\MVC-Project\\MVC-Project\\MVC-Project\\wwwroot\\img\\23fdeb10-917e-4519-b0e7-485787d76332-WhatsApp Image 2024-06-07 at 13.23.24 (1).jpeg",
+      "PackagePath": "staticwebassets\\img\\23fdeb10-917e-4519-b0e7-485787d76332-WhatsApp Image 2024-06-07 at 13.23.24 (1).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Рабочий стол\\MVC-Project\\MVC-Project\\MVC-Project\\wwwroot\\img\\51bd9a19-844a-47d2-9bf1-c638ff88639e-about.jpg",
+      "PackagePath": "staticwebassets\\img\\51bd9a19-844a-47d2-9bf1-c638ff88639e-about.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Рабочий стол\\MVC-Project\\MVC-Project\\MVC-Project\\wwwroot\\img\\623f55a0-6fc0-42d8-8539-6ec2dfb98372-WhatsApp Image 2024-06-07 at 13.23.24 (2).jpeg",
+      "PackagePath": "staticwebassets\\img\\623f55a0-6fc0-42d8-8539-6ec2dfb98372-WhatsApp Image 2024-06-07 at 13.23.24 (2).jpeg"
     },
     {
       "Id": "C:\\Users\\ASUS\\OneDrive\\Рабочий стол\\MVC-Project\\MVC-Project\\MVC-Project\\wwwroot\\img\\a8bd3e7d-90be-447d-9f0c-e5de96c17c9b-mountains-8687536_1280.jpg",
@@ -735,6 +743,10 @@
     {
       "Id": "C:\\Users\\ASUS\\OneDrive\\Рабочий стол\\MVC-Project\\MVC-Project\\MVC-Project\\wwwroot\\img\\about.jpg",
       "PackagePath": "staticwebassets\\img\\about.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Рабочий стол\\MVC-Project\\MVC-Project\\MVC-Project\\wwwroot\\img\\c456076b-4755-4d32-af70-b8d62b4eeaea-WhatsApp Image 2024-06-07 at 13.23.24.jpeg",
+      "PackagePath": "staticwebassets\\img\\c456076b-4755-4d32-af70-b8d62b4eeaea-WhatsApp Image 2024-06-07 at 13.23.24.jpeg"
     },
     {
       "Id": "C:\\Users\\ASUS\\OneDrive\\Рабочий стол\\MVC-Project\\MVC-Project\\MVC-Project\\wwwroot\\img\\carousel-1.jpg",
@@ -779,6 +791,10 @@
     {
       "Id": "C:\\Users\\ASUS\\OneDrive\\Рабочий стол\\MVC-Project\\MVC-Project\\MVC-Project\\wwwroot\\img\\d91e5aea-a78b-4358-b389-5d26c241efa9-mountains-8687536_1280.jpg",
       "PackagePath": "staticwebassets\\img\\d91e5aea-a78b-4358-b389-5d26c241efa9-mountains-8687536_1280.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Рабочий стол\\MVC-Project\\MVC-Project\\MVC-Project\\wwwroot\\img\\ea8071c4-37f3-4cea-b276-a21d860999ec-WhatsApp Image 2024-06-07 at 13.23.24 (3).jpeg",
+      "PackagePath": "staticwebassets\\img\\ea8071c4-37f3-4cea-b276-a21d860999ec-WhatsApp Image 2024-06-07 at 13.23.24 (3).jpeg"
     },
     {
       "Id": "C:\\Users\\ASUS\\OneDrive\\Рабочий стол\\MVC-Project\\MVC-Project\\MVC-Project\\wwwroot\\img\\ff471d45-25ae-4872-93de-fa2ce9006a57-mountains-8687536_1280.jpg",

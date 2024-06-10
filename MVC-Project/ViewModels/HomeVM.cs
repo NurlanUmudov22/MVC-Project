@@ -13,7 +13,7 @@ namespace MVC_Project.ViewModels
         public IEnumerable<InformationVM> Informations { get; set; }
 
         public About Abouts { get; set; }
-        //public IEnumerable<AboutVM> About { get; set; }
+        public IEnumerable<AboutVM> About { get; set; }
 
     }
 }
