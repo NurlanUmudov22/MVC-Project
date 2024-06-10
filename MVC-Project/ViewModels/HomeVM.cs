@@ -24,5 +24,8 @@ namespace MVC_Project.ViewModels
         public IEnumerable<Course> Courses { get; set; }
         public IEnumerable<Instructor> Instructors { get; set; }
 
+        public IEnumerable<Student> Students { get; set; }
+
+
     }
 }

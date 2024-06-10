@@ -43,7 +43,7 @@ namespace MVC_Project.Services
             return await _context.Abouts.AnyAsync(m => m.Title.Trim() == title.Trim() && m.Id != id);
         }
 
-        public async Task<About> GetAboutAsync()
+        public async Task<About> GetAllAsync()
         {
             return await _context.Abouts.FirstOrDefaultAsync();
         }

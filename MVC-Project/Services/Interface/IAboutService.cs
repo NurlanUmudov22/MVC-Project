@@ -12,6 +12,6 @@ namespace MVC_Project.Services.Interface
         Task DeleteAsync(About about);
         Task EditAsync();
         Task<bool> ExistByIdAsync(int id, string title);
-        Task<About> GetAboutAsync();
+        Task<About> GetAllAsync();
     }
 }

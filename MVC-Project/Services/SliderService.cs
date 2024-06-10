@@ -10,16 +10,6 @@ namespace MVC_Project.Services
     {
 
 
-        //private readonly AppDbContext _context;
-
-        //public SliderService(AppDbContext context)
-        //{
-        //    _context = context;
-        //}
-        //public async Task<IEnumerable<Slider>> GetAllAsync()
-        //{
-        //    return await _context.Sliders.Where(m => !m.SoftDeleted).ToListAsync();
-        //}
 
 
         private readonly AppDbContext _context;

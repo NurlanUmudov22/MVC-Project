@@ -7,6 +7,8 @@ using MVC_Project.ViewModels.Abouts;
 using MVC_Project.Helpers.Extensions;
 using MVC_Project.Services;
 using System.Data;
+using MVC_Project.ViewModels.Students;
+
 
 
 namespace MVC_Project.Controllers
@@ -19,12 +21,14 @@ namespace MVC_Project.Controllers
         private readonly ICategoryService _categoryService;
         private readonly ICourseService _courseService;
         private readonly IInstructorService _instructorService;
+        private readonly IStudentService _studentService;
         public HomeController(ISliderService sliderService,
                               IInformationService infoService,
                               IAboutService aboutService,
                               ICategoryService categoryService,
                               ICourseService courseService,
-                              IInstructorService instructorService)
+                              IInstructorService instructorService,
+                              IStudentService studentService)
                               
         {
             _sliderService = sliderService;
@@ -33,7 +37,8 @@ namespace MVC_Project.Controllers
             _categoryService = categoryService;
             _courseService = courseService;
             _instructorService = instructorService;
-           
+            _studentService = studentService;
+            
         }
 
         public async Task<IActionResult> Index()
@@ -63,7 +68,7 @@ namespace MVC_Project.Controllers
                     Description = m.Description
                 }),
 
-                Abouts = await _aboutService.GetAboutAsync(),
+                Abouts = await _aboutService.GetAllAsync(),
 
 
                 CategoryFirst = datas.FirstOrDefault(),
@@ -74,6 +79,8 @@ namespace MVC_Project.Controllers
 
                 Instructors = await _instructorService.GetAllAsync(),
 
+                //Students = await _studentService.GetAllAsync(),
+          
 
             };
             return View(model);
