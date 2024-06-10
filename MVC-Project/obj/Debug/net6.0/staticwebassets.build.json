@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Eld2MzaJdKB4ynQyAeUKGz7hj8n9/yfWktSX4M7nolc=",
+  "Hash": "VQJNLvVhX+C0KloB0WFP5ui3601Kdc4XAGlELtEKSjw=",
   "Source": "MVC-Project",
   "BasePath": "_content/MVC-Project",
   "Mode": "Default",
@@ -3511,6 +3511,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\1d615e19-56c3-4047-a99b-58cbfcc2487b-carousel-1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Рабочий стол\\MVC-Project\\MVC-Project\\MVC-Project\\wwwroot\\img\\20917814-36e8-4928-a3ad-89b4a1b07570-course-1.jpg",
+      "SourceId": "MVC-Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Рабочий стол\\MVC-Project\\MVC-Project\\MVC-Project\\wwwroot\\",
+      "BasePath": "_content/MVC-Project",
+      "RelativePath": "img/20917814-36e8-4928-a3ad-89b4a1b07570-course-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\20917814-36e8-4928-a3ad-89b4a1b07570-course-1.jpg"
     },
     {
       "Identity": "C:\\Users\\ASUS\\OneDrive\\Рабочий стол\\MVC-Project\\MVC-Project\\MVC-Project\\wwwroot\\img\\23fdeb10-917e-4519-b0e7-485787d76332-WhatsApp Image 2024-06-07 at 13.23.24 (1).jpeg",

@@ -13,18 +13,18 @@ namespace MVC_Project.Areas.Admin.Controllers
         private readonly ICourseService _courseService;
         private readonly ICategoryService _categoryService;
         private readonly IWebHostEnvironment _env;
-        //private readonly IInstructorService _instructorService;
+        private readonly IInstructorService _instructorService;
         public CourseController(ICourseService courseService,
                                   IWebHostEnvironment env,
                                   ICategoryService categoryService
-                                  //,IInstructorService instructorService
+                                  , IInstructorService instructorService
             )
 
         {
             _courseService = courseService;
             _env = env;
             _categoryService = categoryService;
-            //_instructorService = instructorService;
+            _instructorService = instructorService;
 
         }
 
@@ -54,7 +54,7 @@ namespace MVC_Project.Areas.Admin.Controllers
         public async Task<IActionResult> Create()
         {
             ViewBag.categories = await _categoryService.GetAllSelectedAsync();
-            //ViewBag.instructor = await _instructorService.GetAllSelectedAsync();
+            ViewBag.instructor = await _instructorService.GetAllSelectedAsync();
             return View();
 
         }
@@ -66,7 +66,7 @@ namespace MVC_Project.Areas.Admin.Controllers
         public async Task<IActionResult> Create(CourseCreateVM request)
         {
             ViewBag.categories = await _categoryService.GetAllSelectedAsync();
-            //ViewBag.instructor = await _instructorService.GetAllSelectedAsync();
+            ViewBag.instructor = await _instructorService.GetAllSelectedAsync();
             if (!ModelState.IsValid)
             {
                 return View();
