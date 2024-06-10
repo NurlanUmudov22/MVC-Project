@@ -17,16 +17,19 @@ namespace MVC_Project.Controllers
         private readonly IInformationService _infoService; 
         private readonly IAboutService _aboutService;
         private readonly ICategoryService _categoryService;
+        private readonly ICourseService _courseService;
         public HomeController(ISliderService sliderService,
                               IInformationService infoService,
                               IAboutService aboutService,
-                              ICategoryService categoryService)
+                              ICategoryService categoryService,
+                              ICourseService courseService)
                               
         {
             _sliderService = sliderService;
             _infoService = infoService;
             _aboutService = aboutService;
             _categoryService = categoryService;
+            _courseService = courseService;
            
         }
 
@@ -57,13 +60,12 @@ namespace MVC_Project.Controllers
                     Description = m.Description
                 }),
 
-                //Sliders = await _sliderService.GetAllAsync(),
-                //Informations = await _infoService.GetAllAsync(),
                 Abouts = await _aboutService.GetAboutAsync(),
                 CategoryFirst = datas.FirstOrDefault(),
                 CategoryLast = datas.LastOrDefault(),
                 Categories = datas.Skip(1).Take(2),
 
+                Courses = await _courseService.GetAllAsync(),
 
             };
             return View(model);

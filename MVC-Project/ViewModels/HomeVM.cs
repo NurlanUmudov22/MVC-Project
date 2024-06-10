@@ -20,5 +20,8 @@ namespace MVC_Project.ViewModels
         public CategoryCourseVM CategoryLast { get; set; }
         public IEnumerable<CategoryCourseVM> Categories { get; set; }
 
+
+        public IEnumerable<Course> Courses { get; set; }
+
     }
 }
