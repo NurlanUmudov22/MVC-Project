@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VQJNLvVhX+C0KloB0WFP5ui3601Kdc4XAGlELtEKSjw=",
+  "Hash": "IRAYdZE7GSXsK5vRGT2hIgwD0tCec2YuSB9MOPtJpmg=",
   "Source": "MVC-Project",
   "BasePath": "_content/MVC-Project",
   "Mode": "Default",
@@ -3589,6 +3589,25 @@
       "OriginalItemSpec": "wwwroot\\img\\623f55a0-6fc0-42d8-8539-6ec2dfb98372-WhatsApp Image 2024-06-07 at 13.23.24 (2).jpeg"
     },
     {
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Рабочий стол\\MVC-Project\\MVC-Project\\MVC-Project\\wwwroot\\img\\8a690ef1-a67f-482a-86ca-1d36660bdb2f-team-1.jpg",
+      "SourceId": "MVC-Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Рабочий стол\\MVC-Project\\MVC-Project\\MVC-Project\\wwwroot\\",
+      "BasePath": "_content/MVC-Project",
+      "RelativePath": "img/8a690ef1-a67f-482a-86ca-1d36660bdb2f-team-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\8a690ef1-a67f-482a-86ca-1d36660bdb2f-team-1.jpg"
+    },
+    {
       "Identity": "C:\\Users\\ASUS\\OneDrive\\Рабочий стол\\MVC-Project\\MVC-Project\\MVC-Project\\wwwroot\\img\\8aea8360-e3ff-4aba-b669-83be3aff58e9-cat-2.jpg",
       "SourceId": "MVC-Project",
       "SourceType": "Discovered",
@@ -3682,6 +3701,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\c456076b-4755-4d32-af70-b8d62b4eeaea-WhatsApp Image 2024-06-07 at 13.23.24.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Рабочий стол\\MVC-Project\\MVC-Project\\MVC-Project\\wwwroot\\img\\c5407c63-4804-4be9-81f6-57fc890d2558-course-1.jpg",
+      "SourceId": "MVC-Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Рабочий стол\\MVC-Project\\MVC-Project\\MVC-Project\\wwwroot\\",
+      "BasePath": "_content/MVC-Project",
+      "RelativePath": "img/c5407c63-4804-4be9-81f6-57fc890d2558-course-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\c5407c63-4804-4be9-81f6-57fc890d2558-course-1.jpg"
     },
     {
       "Identity": "C:\\Users\\ASUS\\OneDrive\\Рабочий стол\\MVC-Project\\MVC-Project\\MVC-Project\\wwwroot\\img\\carousel-1.jpg",
@@ -3910,6 +3948,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\d91e5aea-a78b-4358-b389-5d26c241efa9-mountains-8687536_1280.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Рабочий стол\\MVC-Project\\MVC-Project\\MVC-Project\\wwwroot\\img\\e99cb8a4-b198-4371-82fd-07941db87ab7-course-1.jpg",
+      "SourceId": "MVC-Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Рабочий стол\\MVC-Project\\MVC-Project\\MVC-Project\\wwwroot\\",
+      "BasePath": "_content/MVC-Project",
+      "RelativePath": "img/e99cb8a4-b198-4371-82fd-07941db87ab7-course-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\e99cb8a4-b198-4371-82fd-07941db87ab7-course-1.jpg"
     },
     {
       "Identity": "C:\\Users\\ASUS\\OneDrive\\Рабочий стол\\MVC-Project\\MVC-Project\\MVC-Project\\wwwroot\\img\\ea8071c4-37f3-4cea-b276-a21d860999ec-WhatsApp Image 2024-06-07 at 13.23.24 (3).jpeg",

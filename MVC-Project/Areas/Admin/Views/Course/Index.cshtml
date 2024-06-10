@@ -7,7 +7,7 @@
 }
 
 <div class="container mt-5">
-    <h2 class="text-center">Category</h2>
+    <h2 class="text-center">Course</h2>
     <div class="create-operation">
         <a asp-action="Create" class="btn btn-success text-white btn-sm"><i class="ti-plus"></i></a>
     </div>
@@ -15,6 +15,9 @@
         <table class="table table-striped">
             <thead>
                 <tr>
+                    <th>
+                        Image
+                    </th>
                     <th>
                        Name
                     </th>
@@ -38,7 +41,10 @@
                 @foreach (var item in Model.Datas)
                 {
                     <tr class="category-data">
-                       
+
+                        <td class="py-1">
+                            <img src="~/img/@item.MainImage" width="100px" height="100px" />
+                        </td>
                         <td>
                             @item.Name
                         </td>
