@@ -6,6 +6,7 @@ using MVC_Project.ViewModels.Informations;
 using MVC_Project.ViewModels.Abouts;
 using MVC_Project.Helpers.Extensions;
 using MVC_Project.Services;
+using System.Data;
 
 
 namespace MVC_Project.Controllers
@@ -15,14 +16,17 @@ namespace MVC_Project.Controllers
         private readonly ISliderService _sliderService;
         private readonly IInformationService _infoService; 
         private readonly IAboutService _aboutService;
+        private readonly ICategoryService _categoryService;
         public HomeController(ISliderService sliderService,
                               IInformationService infoService,
-                              IAboutService aboutService)
+                              IAboutService aboutService,
+                              ICategoryService categoryService)
                               
         {
             _sliderService = sliderService;
             _infoService = infoService;
             _aboutService = aboutService;
+            _categoryService = categoryService;
            
         }
 
@@ -31,6 +35,8 @@ namespace MVC_Project.Controllers
             var slider = await _sliderService.GetAllAsync();
             var info = await _infoService.GetAllAsync();
             var about = await _aboutService.GetAllAsync();
+            var datas = await _categoryService.GetAllWithProductCountAsync();
+
             HomeVM model = new()
             {
                 Sliders = slider.Select(m => new SliderVM
@@ -54,6 +60,9 @@ namespace MVC_Project.Controllers
                 //Sliders = await _sliderService.GetAllAsync(),
                 //Informations = await _infoService.GetAllAsync(),
                 Abouts = await _aboutService.GetAboutAsync(),
+                CategoryFirst = datas.FirstOrDefault(),
+                CategoryLast = datas.LastOrDefault(),
+                Categories = datas.Skip(1).Take(2),
 
 
             };

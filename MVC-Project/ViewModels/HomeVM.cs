@@ -1,5 +1,6 @@
 ﻿using MVC_Project.Models;
 using MVC_Project.ViewModels.Abouts;
+using MVC_Project.ViewModels.Category;
 using MVC_Project.ViewModels.Informations;
 using MVC_Project.ViewModels.Sliders;
 
@@ -14,6 +15,10 @@ namespace MVC_Project.ViewModels
 
         public About Abouts { get; set; }
         public IEnumerable<AboutVM> About { get; set; }
+
+        public CategoryCourseVM CategoryFirst { get; set; }
+        public CategoryCourseVM CategoryLast { get; set; }
+        public IEnumerable<CategoryCourseVM> Categories { get; set; }
 
     }
 }
