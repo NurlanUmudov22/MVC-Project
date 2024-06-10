@@ -13,7 +13,14 @@
         public int CategoryId { get; set; }
         public Category Category { get; set; }
 
-        public ICollection<CourseImage> CourseImages { get; set; }
 
+
+
+       
+        public Instructor Instructor { get; set; }
+        public int InstructorId { get; set; }
+        public List<CourseImage> CoursesImages { get; set; }
+
+        public List<CourseStudent> CourseStudents { get; set; }
     }
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0uXPqMdP7FlGUXbSuglDbK15rJ08nv/Qdr4SHnXf4gE=",
+  "Hash": "VznJ6En/4wVa5sHiUSnjUka2XXtLsyzkQXRChnCe010=",
   "Source": "MVC-Project",
   "BasePath": "_content/MVC-Project",
   "Mode": "Default",
@@ -3475,6 +3475,25 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Рабочий стол\\MVC-Project\\MVC-Project\\MVC-Project\\wwwroot\\img\\1d615e19-56c3-4047-a99b-58cbfcc2487b-carousel-1.jpg",
+      "SourceId": "MVC-Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Рабочий стол\\MVC-Project\\MVC-Project\\MVC-Project\\wwwroot\\",
+      "BasePath": "_content/MVC-Project",
+      "RelativePath": "img/1d615e19-56c3-4047-a99b-58cbfcc2487b-carousel-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\1d615e19-56c3-4047-a99b-58cbfcc2487b-carousel-1.jpg"
+    },
+    {
       "Identity": "C:\\Users\\ASUS\\OneDrive\\Рабочий стол\\MVC-Project\\MVC-Project\\MVC-Project\\wwwroot\\img\\23fdeb10-917e-4519-b0e7-485787d76332-WhatsApp Image 2024-06-07 at 13.23.24 (1).jpeg",
       "SourceId": "MVC-Project",
       "SourceType": "Discovered",
@@ -3815,6 +3834,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\ea8071c4-37f3-4cea-b276-a21d860999ec-WhatsApp Image 2024-06-07 at 13.23.24 (3).jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Рабочий стол\\MVC-Project\\MVC-Project\\MVC-Project\\wwwroot\\img\\fee3fdee-2bf6-4673-8004-36462ebb96a9-carousel-2.jpg",
+      "SourceId": "MVC-Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Рабочий стол\\MVC-Project\\MVC-Project\\MVC-Project\\wwwroot\\",
+      "BasePath": "_content/MVC-Project",
+      "RelativePath": "img/fee3fdee-2bf6-4673-8004-36462ebb96a9-carousel-2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\fee3fdee-2bf6-4673-8004-36462ebb96a9-carousel-2.jpg"
     },
     {
       "Identity": "C:\\Users\\ASUS\\OneDrive\\Рабочий стол\\MVC-Project\\MVC-Project\\MVC-Project\\wwwroot\\img\\ff471d45-25ae-4872-93de-fa2ce9006a57-mountains-8687536_1280.jpg",
